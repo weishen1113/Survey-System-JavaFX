@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.survey.surveysystem.ClientLoginViewController">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="327.0" style="-fx-background-color: #215EA7;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="287.0" fitWidth="266.0" layoutX="30.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/survey%20management%20logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnLogin" layoutX="212.0" layoutY="403.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #246FC8;" text="Login" textFill="#f8f8f8" />
+            <Text fill="#2a4460" layoutX="74.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Sign In" wrappingWidth="323.443359375">
+               <font>
+                  <Font name="Calibri Bold" size="56.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="31.0" fitWidth="51.0" layoutX="106.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField fx:id="txtFirstName" layoutX="117.0" layoutY="212.0" prefHeight="28.0" prefWidth="243.0" promptText="First Name" style="-fx-background-color: transparent; -fx-border-color: #18453b; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="txtLastName" layoutX="118.0" layoutY="272.0" prefHeight="28.0" prefWidth="243.0" promptText="Last Name" style="-fx-background-color: transparent; -fx-border-color: #18453b; -fx-border-width: 0px 0px 2px 0px;" />
+            <RadioButton fx:id="checkMale" layoutX="119.0" layoutY="343.0" mnemonicParsing="false" onAction="#onMaleCheck" selected="true" text="Male" />
+            <RadioButton fx:id="checkFemale" layoutX="190.0" layoutY="343.0" mnemonicParsing="false" onAction="#onFemaleCheck" text="Female" />
+            <Hyperlink fx:id="txtLoginAdmin" layoutX="196.0" layoutY="462.0" onAction="#onAdminLogin" text="Admin sign in">
+               <font>
+                  <Font size="14.0" />
+               </font></Hyperlink>
+            <Label layoutX="116.0" layoutY="193.0" text="First Name">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="254.0" text="Last Name">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="314.0" text="Gender">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.survey.surveysystem.ScAboutViewController">
+   <top>
+      <AnchorPane prefHeight="89.0" prefWidth="800.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <AnchorPane prefHeight="529.0" prefWidth="800.0" style="-fx-background-color: #F6F6F6;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="161.0" fitWidth="343.0" layoutX="66.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/survey%20management%20logo%20about.png" />
+               </image>
+            </ImageView>
+            <Text fill="#595959" layoutX="45.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the survey creator dashboard, you could manage the survey, manage the questions of the survey, and view the survey’s content. On the ‘Manage Survey’ page, you could add, update or delete the survey. On the ‘Manage Questions’ page, you could add, update, or delete the details of your questions. You could also search up for that survey to view the survey’s content." textAlignment="JUSTIFY" wrappingWidth="392.65855407714844">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#595959" layoutX="27.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supported By:" wrappingWidth="145.4586181640625">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="59.0" fitWidth="145.0" layoutX="28.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/taylor%20uni.png" />
+               </image>
+            </ImageView>
+            <Text fill="#595959" layoutX="184.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software Used:" wrappingWidth="145.4586181640625">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="37.0" layoutX="185.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/java%20logo.png" />
+               </image>
+            </ImageView>
+            <Text fill="#595959" layoutX="326.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed By:" wrappingWidth="145.4586181640625">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="46.0" fitWidth="129.0" layoutX="329.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/logo%20wei%20shen%20it%20solution.png" />
+               </image>
+            </ImageView>
+            <Text fill="#595959" layoutX="163.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wei Shen- Copyright 2023" wrappingWidth="174.25860595703125">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#215ea7" layoutX="101.0" layoutY="-35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnBack" layoutX="30.0" layoutY="-60.0" mnemonicParsing="false" onAction="#onBackClick" style="-fx-background-color: transparent; -fx-border-color: #18453b;" textFill="#18453b">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../assets/arrow.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

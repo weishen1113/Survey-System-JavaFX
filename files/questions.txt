@@ -1,0 +1,19 @@
+
+
+
+Q3;5;s2;abcdefg;MCQ;1;2;any 3;4
+Q4;5;s2;how much ssd hard work?;Rating
+
+
+Q3;1;s2;Question3;Rating
+
+
+
+
+
+Q1;1;s1;Have you been affected by covid 19 before?;MCQ;a;b;c;d
+5;6;s2;What are the symptoms you experienced during covid-19;Open-ended;;;;
+Q3;3;s2;dsvs;PolarQuestion;;;;
+Q1;1;s2;Question1;PolarQuestion;;;;
+223;13213;s1;why is wei shen so pro;MCQ;Idk;ikk;ol;okkk
+

@@ -1,0 +1,16 @@
+Itla;Afja;s1!!Female;;No;d;gay
+example;mysd;s1!!Male;;Yes;a;adf
+Random;Member;s2!!Male;;Yes;9;No;8;3;b;No;Yes
+Sm;Topazal;s1!!Male;;Yes;d;sdf
+abc;def;s1!!Male;;No;b;ikk
+test;try;s1!!Male;;No;b;ikk
+test;testtt;s1!!Male;;No;d;okkk
+a;b;s1!!Female;;Yes;a;Idk
+a;b;s2!!Female;;Yes;sa;Yes;sa;1;a;Yes;Yes
+Ateeb;Rehman;s1!!Male;;Yes;a;Idk
+Ateeb;Rehman;s2!!Male;;Yes;as;Yes;as;2;b;No;No
+wei;shen;s1!!Male;;No;d;ikk
+max;lim;s1!!Male;;No;b;okkk
+rui;heng;s1!!Male;;No;c;ikk
+Rui ;Heng;s1!!Male;;No;c;ol
+Wei;Shen;s1!!Male;;c;ikk
